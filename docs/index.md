@@ -1,19 +1,53 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Introduction
 
-## Commands
+dotenv is a library that allows software developers to conceal their
+sensitive information within their code. This tool can be used for Database connections,
+API authentication, Security, and making your code
+more secure and reliable.
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+## Users Spectification
 
-## Project layout
+Users that want to follow this guide must be proficient in the following:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- `Database configuration` - Must be familiar with configuring Databases with your code, along with knowledge in database query langauges.
+- `API configuration` - Must be familiar with working with APIs.
+- `Bycrpt/Salt` - Must be comfortable developing authentication features including hiding a user's password.
+- `Github Repository terms and conditions` - Must know what code GitHub tolerates to prevent getting repositories flagged and taken down.
 
-I like eat :hamburger: and :banana:
+## Software Requirements
+
+Before proceeding, ensure you have the following installed:
+
+- [TypeScript](https://www.typescriptlang.org/) v5.x or later
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+- [DotEnv](https://www.npmjs.com/package/dotenv) v16.x or later
+
+## Procedures Overview
+
+- [How does dotenv help us?]()
+- [How to configure dotenv.]()
+- [Where you can apply dotenv in your projects.]()
+
+## Notes and Warning Messages
+
+Throughout the documentation, we will use message blocks to alert you to relevant information. Each possible message block, from most important to least important:
+
+!!! info
+
+    Indicates additional information or tips.
+
+!!! success
+
+    Indicates what success looks like.
+
+!!! warning
+
+    Specifies content that must be read before proceeding.
+
+!!! danger
+
+    Specifies actions that may cause an error or will cause the application to crash.

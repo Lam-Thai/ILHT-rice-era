@@ -1,10 +1,13 @@
-site_name: My MkDocs Material Documentation
+site_name: DotEnv User Documentation
 site_url: https://sitename.example
 theme:
   name: material
   font:
     text: Merriweather Sans
     code: Red Hat Mono
+  features:
+    - content.tabs.link
+  
 
   logo: assets/image.jpg
   favicon: assets/fav.jpg
@@ -33,6 +36,11 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -59,6 +67,17 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 
 extra:
