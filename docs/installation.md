@@ -1,4 +1,4 @@
-Example callouts
+# Installation and Setup
 
 !!! note "Title of the callout"
 

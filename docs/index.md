@@ -11,10 +11,10 @@ more secure and reliable.
 
 Users that want to follow this guide must be proficient in the following:
 
-- `Database configuration` - Must be familiar with configuring Databases with your code, along with knowledge in database query langauges.
-- `API configuration` - Must be familiar with working with APIs.
+- `Express using Typescript` - Must be proficient in creating and understanding express routes to develop websites.
 - `Bycrpt/Salt` - Must be comfortable developing authentication features including hiding a user's password.
 - `Github Repository terms and conditions` - Must know what code GitHub tolerates to prevent getting repositories flagged and taken down.
+- `using .gitignore` - Knowledge of hiding certain files from the git repository using a .gitignore file.
 
 ## Software Requirements
 
@@ -28,9 +28,10 @@ Before proceeding, ensure you have the following installed:
 
 ## Procedures Overview
 
-- [How does dotenv help us?]()
-- [How to configure dotenv.]()
-- [Where you can apply dotenv in your projects.]()
+- [How to install and configure dotenv]()
+- [Hiding your server PORT]()
+- [Hiding Bcrypt authentication secrets]()
+- [.gitIgnore]()
 
 ## Notes and Warning Messages
 
