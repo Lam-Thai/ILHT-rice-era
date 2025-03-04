@@ -1,17 +1,16 @@
 # Home
 
 ## Introduction
-
-dotenv is a library that allows software developers to conceal their
-sensitive information within their code. This tool can be used for Database connections,
+Dotenv is a library that allows software developers to conceal their
+sensitive data within their code by keeping it in a _**.env**_ file. This tool can be used for Database connections,
 API authentication, Security, and making your code
 more secure and reliable.
 
-## Users Spectification
+## User Spectification
 
 Users that want to follow this guide must be proficient in the following:
 
-- `Express using Typescript` - Must be proficient in creating and understanding express routes to develop websites.
+- `Express using Typescript or Javascript` - Must be proficient in creating and understanding express routes to develop websites.
 - `Bycrpt/Salt` - Must be comfortable developing authentication features including hiding a user's password.
 - `Github Repository terms and conditions` - Must know what code GitHub tolerates to prevent getting repositories flagged and taken down.
 - `using .gitignore` - Knowledge of hiding certain files from the git repository using a .gitignore file.
@@ -26,12 +25,15 @@ Before proceeding, ensure you have the following installed:
 
 - [DotEnv](https://www.npmjs.com/package/dotenv) v16.x or later
 
+- [Express.js](https://expressjs.com) version 4.18.12 or later
+
+
 ## Procedures Overview
 
-- [How to install and configure dotenv]()
+- [Dotenv Configuration]()
 - [Hiding your server PORT]()
 - [Hiding Bcrypt authentication secrets]()
-- [.gitIgnore]()
+- [Using .gitignore]()
 
 ## Notes and Warning Messages
 
