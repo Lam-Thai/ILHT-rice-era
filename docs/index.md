@@ -19,7 +19,7 @@ In this documentation, you will learn how to secure and protect your web applica
 Users that want to follow this guide must be proficient in the following:
 
 - `Express using Typescript or Javascript` - Must be proficient in creating and understanding express routes to develop websites.
-- `Authentication` - Must be comfortable developing authentication features including hiding a user's password or session.
+- `Authentication` - Must be comfortable developing authentication features including hashing a user's password and cookie-session.
 - `Github Repository terms and conditions` - Must know what code GitHub tolerates to prevent getting repositories flagged and taken down.
 - `using .gitignore` - Knowledge of hiding certain files from the git repository using a .gitignore file.
 

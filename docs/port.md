@@ -96,7 +96,7 @@ Explainations:
 - The `ProcessEnv` interface defines the specific environment variables that will be used in the application.
 - By casting `process.env` to `ProcessEnv`, TypeScript will know about the PORT variable, ensuring type safety.
 
-## Summary
+## Conclusion
 
 - By using the `dotenv` library, you can securely manage sensitive data like port values without hardcoding them into your application code. This practice is essential for maintaining security and flexibility, especially when deploying to different environments or teams.
 

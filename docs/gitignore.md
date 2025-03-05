@@ -31,7 +31,7 @@ echo ".env" >> .gitignore
 
     Navigate to your project's directory before typing command in the terminal
 
-## Summary
+## Conclusion
 
 - In conclusion, using `.gitignore` to ensure that all your environment variables you set in your `.env` file for the project is ignored when staging and pushing to version control.
 - This helps all the sensitive datas such as port values or other configuration values will be hidden when deploying to different environments or teams.

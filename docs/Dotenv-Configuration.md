@@ -57,3 +57,10 @@ Once you created your .env file(s), you can insert your variables following the 
 !!! info
 
     When naming your environment variables, make sure that you are replacing all your whitespaces with underscores ( _ ) and the name is all upper case. This is that you can differinciate between variables in your code and your _**.env**_ file
+
+### Conclusion
+By this point, you have learned:
+
+-   How to import your .env file into your code
+-   The location of your environment variables
+-   Insert your data into your .env file
