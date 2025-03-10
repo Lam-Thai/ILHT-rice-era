@@ -11,8 +11,8 @@ In this documentation, you will learn how to secure and protect your web applica
 
 ## Intended Users
 
-- Beginners to Intermediate developers who need to protect the sensitive data in the server.
-- Software development teams currently working on a moderate to big web-application.
+- Intermediate level developers who need to protect the sensitive data in the server.
+- Software development teams working on web-applications that need data security.
 
 ## User Specification
 
@@ -28,6 +28,8 @@ Users that want to follow this guide must be proficient in the following:
 Before proceeding, ensure you have the following installed:
 
 - [TypeScript](https://www.typescriptlang.org/) v5.x or later
+
+- [JavaScript](https://javascript.info/) ES6 or later
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 

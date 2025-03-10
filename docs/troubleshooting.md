@@ -31,11 +31,14 @@ Ensure that you need to require `dotenv` module at the very top of your javascri
 Example of Javascript:
 
 ```js title="example.js" linenums="1"
-const process = require('dotenv').config();
+const process = require("dotenv").config();
 
 const port = process.env.PORT || 5000;
-
 ```
+
+Output if you have the name in `js` and `.env` don't match:
+
+![](/assets/portwrong.png)
 
 In addition, your values in `javascript` file should be matched with ones in the `.env` file. For instance, if your .env file has `API_KEY=your-api-key`, ensure that your code accesses it as `process.env.API_KEY`, not something like `process.env.VALUE`
 
@@ -58,11 +61,12 @@ Validate that the environment variables are defined properly. For instance, befo
 Example of Javascript:
 
 ```js title="validate.js"
-if (!process.env.API_KEY) {
-    console.error('API_KEY is missing from .env file!');
+if (!process.env.PORT) {
+  console.error("PORT is not defined in .env file");
 }
-
 ```
+
+![](/assets/console_error.png)
 
 ### Use `dotenv` debug mode
 
@@ -71,8 +75,12 @@ If you want to know how your `dotenv` module work. You can enable the debug mode
 Example of JavaScript:
 
 ```js title="debug.js"
-require('dotenv').config({ debug: true });
+require("dotenv").config({ debug: true });
 ```
+
+Output of your console if you turn on the debug mode:
+
+![](/assets/debug_mode.png)
 
 Explaination:
 
@@ -80,29 +88,26 @@ Explaination:
 
 ### Check compatibility with other libraries
 
-Some libraries or frameworks (e.g., webpack or Next.js) might have specific methods or considerations for loading environment variables, which may interfere with dotenv. Ensure you are following any framework-specific guidelines. 
+Some libraries or frameworks (e.g., webpack or Next.js) might have specific methods or considerations for loading environment variables, which may interfere with dotenv. Ensure you are following any framework-specific guidelines.
 
 ## Common Issues
 
 1. Error: Cannot find module 'dotenv':
 
-     * Solution: Run `npm install dotenv` to ensure the library is installed.
+   - Solution: Run `npm install dotenv` to ensure the library is installed.
 
 2. process.env.VARIABLE_NAME is undefined:
 
-    * Solution: Double-check that the key exists in the `.env` file and that it is being parsed correctly in your `javascript` file.
+   - Solution: Double-check that the key exists in the `.env` file and that it is being parsed correctly in your `javascript` file.
 
 3. Error: ENOENT: no such file or directory, open `.env`:
 
-    * Solution: Ensure that your `.env` file exists in the correct directory, and verify that dotenv.config() is pointing to the correct path for the `.env` file. 
+   - Solution: Ensure that your `.env` file exists in the correct directory, and verify that dotenv.config() is pointing to the correct path for the `.env` file.
 
 4. Environment variable is not being loaded properly:
 
-    * Solution: Try logging the `process.env` object to verify the loaded environment variables, or use dotenv.config({ debug: true }) to gather more details about what might be failing.
+   - Solution: Try logging the `process.env` object to verify the loaded environment variables, or use dotenv.config({ debug: true }) to gather more details about what might be failing.
 
 ## Addition resources
 
 - [Dotenv Documentation](https://www.npmjs.com/package/dotenv)
-
-
-

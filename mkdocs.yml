@@ -1,5 +1,14 @@
 site_name: DotEnv User Documentation
 site_url: https://sitename.example
+nav:
+    - Home: index.md
+    - Set-up: Dotenv-Configuration.md
+    - Port usage: port.md
+    - Secrets usage: secrets.md
+    - gitignore: gitignore.md
+    - Troubleshooting: troubleshooting.md
+    - Glossary: glossary.md
+
 theme:
   name: material
   font:
@@ -7,11 +16,9 @@ theme:
     code: Red Hat Mono
   features:
     - content.tabs.link
- 
-  
 
-  logo: assets/image.jpg
-  favicon: assets/fav.jpg
+  logo: assets/image.png
+  favicon: assets/image.png
   features:
     - navigation.footer
   palette:

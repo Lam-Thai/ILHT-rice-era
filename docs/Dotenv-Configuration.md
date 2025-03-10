@@ -29,15 +29,20 @@ In this section, you will learn how to configure **_dotenv_** to your express ap
     - Call the configuration function to read the contents of your .env file which parses its contents, making it available to all scripts or files that include the import.
 
     ```title="example.ts" linenums="1"
+    // Typescript notation:
     import dotenv from "dotenv"
     dotenv.config();
+    ```
 
+    ```title="example.js" linenums="1"
+    // JavaScript notation:
+    const dotenv = require("dotenv").config();
     ```
 
 ## The location of the variables
 
 - When you call the configuration
-  function in your Typescript file(s), all the variables that you stored in your .env file will assigned inside an object called **process.env**
+  function in your Javascript/Typescript file(s), all the variables that you stored in your .env file will assigned inside an object called **process.env**
 
 - This will load your environment variables from _**.env**_ into your project's root directory
 
@@ -51,7 +56,6 @@ Once you created your .env file(s), you can insert your variables following the 
 
 ```title=".env" linenums="1"
  YOUR_ENVIRONMENT_VARIABLE="<insert data here>"
-
 ```
 
 !!! info
@@ -59,8 +63,9 @@ Once you created your .env file(s), you can insert your variables following the 
     When naming your environment variables, make sure that you are replacing all your whitespaces with underscores ( _ ) and the name is all upper case. This is that you can differinciate between variables in your code and your _**.env**_ file
 
 ### Conclusion
+
 By this point, you have learned:
 
--   How to import your .env file into your code
--   The location of your environment variables
--   Insert your data into your .env file
+- How to import your .env file into your code
+- The location of your environment variables
+- Insert your data into your .env file

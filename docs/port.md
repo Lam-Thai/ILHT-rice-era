@@ -10,10 +10,10 @@ When deploying to different environment and teams, it's essential for maintainin
 
 Bad example of port security:
 
-```ts title="bad-example.ts" linenums="1"
+```title="bad-example.ts" linenums="1"
 const app = express();
 
-const PORT = 3000;
+const PORT: number = 3000;
 
 app.set("view engine", "ejs");
 
@@ -42,7 +42,7 @@ In JavaScript, you'll use `require()` to load and parses the dotenv module, and 
 Example of JavaScript:
 
 ```js title="dotenv.js" linenums="1"
-const process = require("dotenv").config();
+require("dotenv").config();
 
 const port = process.env.PORT || 5000;
 
