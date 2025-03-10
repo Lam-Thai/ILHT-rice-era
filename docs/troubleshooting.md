@@ -66,6 +66,8 @@ if (!process.env.PORT) {
 }
 ```
 
+Output of your console:
+
 ![](/assets/console_error.png)
 
 ### Use `dotenv` debug mode
