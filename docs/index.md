@@ -39,10 +39,10 @@ Before proceeding, ensure you have the following installed:
 
 ## Procedures Overview
 
-- [Dotenv Configuration](http://127.0.0.1:8000/Dotenv-Configuration/)
-- [Hiding your server PORT](http://127.0.0.1:8000/port/)
-- [Hiding Secret Keys]()
-- [Using .gitignore](http://127.0.0.1:8000/gitignore/)
+- [Dotenv Configuration](Dotenv-Configuration.md)
+- [Hiding your server PORT](port.md)
+- [Hiding Secret Keys](secrets.md)
+- [Using .gitignore](gitignore.md)
 
 ## Notes and Warning Messages
 
